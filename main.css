@@ -1,6 +1,6 @@
 body{
-  font-family: 'Gloria Hallelujah', cursive;
-      color: whitesmoke;
+    font-family: 'Major Mono Display', monospace;
+    color: whitesmoke;
 
 }
 
@@ -15,7 +15,17 @@ div{
 }
 h1{
     text-align: center;
+    font-size: 72px;
+  background: -webkit-linear-gradient( darkgray , white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+.weather{
+    background: -webkit-linear-gradient( darkgray , white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
 
  #qoutes{
 

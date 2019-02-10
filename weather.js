@@ -11,8 +11,8 @@ axios({
 //     response.data.weather.main = Clouds;
 // }
 // for(let i=response.data.weather[0];i>=response.data.weather)
-    $('#weather').text(' ' + response.data.name +'   ' );
-    $('#weather2').append( ''+response.data.main.temp+ '°  ');
+    $('#weather1').text(' ' + response.data.name );
+    $('#weather2').append( ''+response.data.main.temp+ '°  '+' ☁️');
     $('#weather3').append(''+response.data.main.humidity+'%');
 
 })
