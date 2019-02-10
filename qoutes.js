@@ -4,5 +4,5 @@ axios({
 })
 .then((Response)=> {
     console.log(Response.data.quoteText)
-    $('#qoutes').text('❝'+Response.data.quoteText+'❞')
+    $('#qoutes').text('❝ '+Response.data.quoteText+' ❞')
 });

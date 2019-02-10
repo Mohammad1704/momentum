@@ -10,8 +10,10 @@ axios({
 //     let Clouds= '☁️';
 //     response.data.weather.main = Clouds;
 // }
-
-    $('h2').text('weather in ' + response.data.name +' is  ' + response.data.weather[0].main+ ' and \n'+response.data.weather[0].icon);
+// for(let i=response.data.weather[0];i>=response.data.weather)
+    $('#weather').text(' ' + response.data.name +'   ' );
+    $('#weather2').append( ''+response.data.main.temp+ '°  ');
+    $('#weather3').append(''+response.data.main.humidity+'%');
 
 })
 

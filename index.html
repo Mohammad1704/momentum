@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    
+
+
 </head>
+
 <body>
+        <!-- <p id="time2">time</p>
+        <p id="date2">date</p>
+        <p id="temp2">temp</p>
+        <p id="humid2">humid</p> -->
 
-<h2>
+    <p id="weather" style="
+             text-align: right;
+             color: azure;
+         "> </p>
+   <p id="weather2" style="
+   text-align: right;
+   color: azure;
+"> </p>
+   <p id="weather3" style="
+   text-align: right;
+   color: azure;
+"> </p>
 
-</h2>
-        <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <!-- <script src="main.js"></script> -->
-    <script src="weather.js"></script>
-    <script src="qoutes.js"></script>
 
-    <h3 id="qoutes"></h3>
+    <div class="container">
+
+
+        <h1 id="date"></h1>
+        <h1 id="time"></h1>
+        <h3 id="qoutes"></h3>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+        <script src="main.js"></script>
+        <script src="weather.js"></script>
+        <script src="qoutes.js"></script>
+        <script src="time.js"></script>
+    </div>
+
 
 </body>
+
 </html>
